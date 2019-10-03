@@ -1,0 +1,11 @@
+Flask
+Jinja2
+MarkupSafe
+Werkzeug
+gunicorn
+itsdangerous
+newrelic
+lxml
+requests
+flask-cors
+pygithub
