@@ -2,14 +2,14 @@
   <img src="./images/api.png" width="150">
 </p>
 
-[![Open issues](https://img.shields.io/github/issues/code-monk08/https://github.com/code-monk08/open-source-api-wrapper?style=for-the-badge&logo=github)](https://github.com/code-monk08/https://github.com/code-monk08/open-source-api-wrapper/issues)  [![Forks](https://img.shields.io/github/forks/code-monk08/https://github.com/code-monk08/open-source-api-wrapper?style=for-the-badge&logo=github)](https://github.com/code-monk08/https://github.com/code-monk08/open-source-api-wrapper/network/members)  [![Stars](https://img.shields.io/github/stars/code-monk08/https://github.com/code-monk08/open-source-api-wrapper?style=for-the-badge&logo=reverbnation)](https://github.com/code-monk08/https://github.com/code-monk08/open-source-api-wrapper/stargazers)  ![Maintained](https://img.shields.io/maintenance/yes/2019?style=for-the-badge&logo=github)  ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blueviolet?style=for-the-badge&logo=python)  ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative)  ![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi)  [![Follow Me](https://img.shields.io/twitter/follow/codemonk08_?color=blue&label=Follow%20%40codemonk08_&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?screen_name=codemonk08_)  [![Telegram](https://img.shields.io/badge/Telegram-Chat-informational?style=for-the-badge&logo=telegram)](https://telegram.me/codemonk08)
+[![Open issues](https://img.shields.io/github/issues/code-monk08/open-source-api-wrapper?style=for-the-badge&logo=github)](https://github.com/code-monk08/open-source-api-wrapper/issues)  [![Forks](https://img.shields.io/github/forks/code-monk08/open-source-api-wrapper?style=for-the-badge&logo=github)](https://github.com/code-monk08/open-source-api-wrapper/network/members)  [![Stars](https://img.shields.io/github/stars/code-monk08/open-source-api-wrapper?style=for-the-badge&logo=reverbnation)](https://github.com/code-monk08/open-source-api-wrapper/stargazers)  ![Maintained](https://img.shields.io/maintenance/yes/2019?style=for-the-badge&logo=github)  ![Made with Python](https://img.shields.io/badge/Made%20with-Python-blueviolet?style=for-the-badge&logo=python)  ![Open Source Love](https://img.shields.io/badge/Open%20Source-%E2%99%A5-red?style=for-the-badge&logo=open-source-initiative)  ![Built with Love](https://img.shields.io/badge/Built%20With-%E2%99%A5-critical?style=for-the-badge&logo=ko-fi)  [![Follow Me](https://img.shields.io/twitter/follow/codemonk08_?color=blue&label=Follow%20%40codemonk08_&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?screen_name=codemonk08_)  [![Telegram](https://img.shields.io/badge/Telegram-Chat-informational?style=for-the-badge&logo=telegram)](https://telegram.me/codemonk08)
 
 ## :ledger: Index
 
 - [About](#beginner-about)
 - [Usage](#zap-usage)
-   - [Installation](#electric_plug-installation)
-   - [Commands](#package-commands)
+  [Installation](#electric_plug-installation)
+  [Commands](#package-commands)
 - [File Structure](#file_folder-file-structure)
 - [Guideline](#exclamation-guideline)  
 - [Resources](#page_facing_up-resources)
@@ -122,48 +122,48 @@ Close issues using keywords: [how to ?](https://help.github.com/en/articles/clos
 
 - GET organizations/ group Members
 ```
-  - GET /github/orgs/:org/members
-  - GET /gitlab/groups/:id/members
+ GET /github/orgs/:org/members
+ GET /gitlab/groups/:id/members
 ```
 
 - GET organizations repos/ group projects
 ```
-  - GET /github/orgs/:org/repos
-  - GET /gitlab/groups/:id/projects
+ GET /github/orgs/:org/repos
+ GET /gitlab/groups/:id/projects
 ```
 
 - GET repos commits / projects commits
 ```
-  - GET /github/repos/:owner/:repo/commits
-  - GET /gitlab/projects/:id/repository/commits
+ GET /github/repos/:owner/:repo/commits
+ GET /gitlab/projects/:id/repository/commits
 ```
 
 - GET repo's issues / projects issues
 ```
-  - GET /github/repos/:owner/:repo/issues
-  - GET /gitlab/projects/:id/issues
+ GET /github/repos/:owner/:repo/issues
+ GET /gitlab/projects/:id/issues
 ```
 
 - GET Organization issues / groups issues
 ```
-  - GET /github/orgs/:org/issues
-  - GET /gitlab/groups/:id/issues
+ GET /github/orgs/:org/issues
+ GET /gitlab/groups/:id/issues
 ```
 
 - GET repo issues comments/ project issue comments
 ```
-  - GET /github/repos/:owner/:repo/issues/comments
-  - GET /gitlab/projects/:id/issues/:issue_iid/notes
+ GET /github/repos/:owner/:repo/issues/comments
+ GET /gitlab/projects/:id/issues/:issue_iid/notes
 ```
 
 - GET repo pull requests / project merge requests
 ```
-  - GET /github/repos/:owner/:repo/pulls
-  - GET /gitlab/projects/:id/merge_requests
+ GET /github/repos/:owner/:repo/pulls
+ GET /gitlab/projects/:id/merge_requests
 ```
 
 ## :star2: Credit/Acknowledgment
-[![Contributors](https://img.shields.io/github/contributors/code-monk08/https://github.com/code-monk08/open-source-api-wrapper?style=for-the-badge)](https://github.com/code-monk08/https://github.com/code-monk08/open-source-api-wrapper/graphs/contributors)
+[![Contributors](https://img.shields.io/github/contributors/code-monk08/open-source-api-wrapper?style=for-the-badge)](https://github.com/code-monk08/open-source-api-wrapper/graphs/contributors)
 
 ##  :lock: License
-[![License](https://img.shields.io/github/license/code-monk08/https://github.com/code-monk08/open-source-api-wrapper?style=for-the-badge)](https://github.com/code-monk08/https://github.com/code-monk08/open-source-api-wrapper/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/code-monk08/open-source-api-wrapper?style=for-the-badge)](https://github.com/code-monk08/open-source-api-wrapper/blob/master/LICENSE)
