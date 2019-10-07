@@ -19,7 +19,7 @@
 - [License](#lock-license)
 
 ##  :beginner: About
-It is a GitHub & GitLab API Wrapper packaged into one server, It was built in Python3 & Flask, It contains minimal API interactions which were implemented to get only the required information from the respective Github & Github APIs, I built this project under [alice-sieve](https://github.com/alice-sieve/Open-Source/tree/API-Wrapper-code-monk08/API%20Wrapper) organization.
+It is a github & gitlab API Wrapper packaged into one server, It was built in Python3 & Flask, It contains minimal API interactions which were implemented to get only the required information from the respective github & gitlab APIs, I built this project under [alice-sieve](https://github.com/alice-sieve/Open-Source/tree/API-Wrapper-code-monk08/API%20Wrapper) organization.
 
 ## :zap: Usage
 To use this project.
@@ -120,7 +120,7 @@ Close issues using keywords: [how to ?](https://help.github.com/en/articles/clos
 
 ## Endpoints
 
-- GET organizations/ group Members
+- GET organizations/ group members
 ```
  GET /github/orgs/:org/members
  GET /gitlab/groups/:id/members
@@ -138,13 +138,13 @@ Close issues using keywords: [how to ?](https://help.github.com/en/articles/clos
  GET /gitlab/projects/:id/repository/commits
 ```
 
-- GET repo's issues / projects issues
+- GET repo issues / projects issues
 ```
  GET /github/repos/:owner/:repo/issues
  GET /gitlab/projects/:id/issues
 ```
 
-- GET Organization issues / groups issues
+- GET organization issues / groups issues
 ```
  GET /github/orgs/:org/issues
  GET /gitlab/groups/:id/issues
