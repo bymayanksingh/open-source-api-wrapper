@@ -115,7 +115,7 @@ Close issues using keywords: [how to ?](https://help.github.com/en/articles/clos
 
 ##  :camera: Gallery
 <p align="center">
-  <img src="./images/baseroute.png" width="800">
+  <img src="./images/baseroute.png">
 </p>
 
 ## Endpoints
