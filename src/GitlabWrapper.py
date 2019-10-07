@@ -8,9 +8,7 @@ from requests.auth import HTTPBasicAuth
 
 from GitlabToken import token
 
-####################################################################
 # Gitlab API Wrapper
-####################################################################
 
 
 class GitlabWrapper:

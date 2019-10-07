@@ -7,9 +7,8 @@ from github import Github
 
 from GithubToken import github_token
 
-####################################################################
+
 # Github API Wrapper
-####################################################################
 
 
 class GithubWrapper:

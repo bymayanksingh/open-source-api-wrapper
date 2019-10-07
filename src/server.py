@@ -25,9 +25,8 @@ def index_route():
     )
 
 
-"""
 # GET ORGANIZATIONS/ GROUP MEMBERS
-"""
+
 
 # github
 @app.route("/<platform>/orgs/<org>/members", methods=["GET"])
@@ -49,9 +48,8 @@ def get_group_members_route(platform, group_id):
         return jsonify(result)
 
 
-"""
 # GET ORGANIZATIONS REPOS/ GROUP PROJECTS
-"""
+
 
 # github
 @app.route("/<platform>/orgs/<org>/repos", methods=["GET"])
@@ -73,9 +71,8 @@ def get_group_projects_route(platform, group_id):
         return jsonify(result)
 
 
-"""
 # GET REPOS COMMITS / PROJECTS COMMITS
-"""
+
 
 # github
 @app.route("/<platform>/repos/<owner>/<repo>/commits", methods=["GET"])
@@ -97,9 +94,8 @@ def get_project_commits_route(platform, project_id):
         return jsonify(result)
 
 
-"""
 # GET REPOS ISSUES / PROJECTS ISSUES
-"""
+
 
 # github
 @app.route("/<platform>/repos/<owner>/<repo>/issues", methods=["GET"])
@@ -121,9 +117,8 @@ def get_project_issues_route(platform, project_id):
         return jsonify(result)
 
 
-"""
 # GET ORGANIZATION ISSUES / GROUPS ISSUES
-"""
+
 
 # github
 @app.route("/<platform>/orgs/<org>/issues", methods=["GET"])
@@ -145,9 +140,8 @@ def get_group_issues_route(platform, group_id):
         return jsonify(result)
 
 
-"""#######
 # GET REPO ISSUES COMMENTS/ PROJECT ISSUE COMMENTS
-"""  #######
+
 
 # github
 @app.route("/<platform>/repos/<owner>/<repo>/issues/comments", methods=["GET"])
@@ -171,9 +165,8 @@ def get_issue_comments_dict_route(platform, project_id, issue_iid):
         return jsonify(result)
 
 
-"""#######
 # GET REPO PULL REQUESTS / PROJECT MERGE REQUESTS
-"""  #######
+
 
 # github
 @app.route("/<platform>/repos/<owner>/<repo>/pulls", methods=["GET"])
@@ -195,9 +188,8 @@ def get_project_merge_request_route(platform, project_id):
         return jsonify(result)
 
 
-"""
 # Start Flask
-"""
+
 
 if __name__ == "__main__":
     app.run()
