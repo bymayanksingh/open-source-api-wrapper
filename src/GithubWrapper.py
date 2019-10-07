@@ -1,8 +1,10 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-from github import Github
 from datetime import datetime, timezone
+
+from github import Github
+
 from GithubToken import github_token
 
 ####################################################################

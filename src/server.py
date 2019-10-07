@@ -1,9 +1,10 @@
 ##! /usr/bin/env python3
 # -*- coding: utf-8 -*-
 from flask import Flask, jsonify
+from flask_cors import CORS
+
 from GithubWrapper import GithubWrapper
 from GitlabWrapper import GitlabWrapper
-from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)

@@ -1,9 +1,11 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-import requests
 import json
+
+import requests
 from requests.auth import HTTPBasicAuth
+
 from GitlabToken import token
 
 ####################################################################
